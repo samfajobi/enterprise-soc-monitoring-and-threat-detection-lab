@@ -139,8 +139,15 @@ All services should show **active (running)**.
 
 ---
 ![Wazuh-setup-1](screenshots/wazuh-setup-1.png)
+
 ![Wazuh-setup-1](screenshots/wazuh-setup-2.png)
+
 ![Wazuh-setup-1](screenshots/wazuh-setup-3.png)
+
+![Wazuh-setup-1](screenshots/wazuh-setup-4.png)
+
+![Wazuh-setup-1](screenshots/wazuh-setup-5.png)
+
 
 ## Step 8: Open Required Firewall Ports (If Enabled)
 
