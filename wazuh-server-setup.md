@@ -138,6 +138,9 @@ sudo systemctl status wazuh-dashboard
 All services should show **active (running)**.
 
 ---
+![Wazuh-setup-1](screenshots/wazuh-setup-1.png)
+![Wazuh-setup-1](screenshots/wazuh-setup-2.png)
+![Wazuh-setup-1](screenshots/wazuh-setup-3.png)
 
 ## Step 8: Open Required Firewall Ports (If Enabled)
 
@@ -196,10 +199,8 @@ This setup simulates a **real-world SOC deployment** where:
 ## Author
 
 **Olusegun Fajobi**
-Cybersecurity | SOC | SIEM
+Cybersecurity Engineer.
 GitHub: [https://github.com/samfajobi](https://github.com/samfajobi)
-
-```
 
 ---
 
