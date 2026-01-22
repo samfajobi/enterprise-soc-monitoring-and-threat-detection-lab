@@ -124,3 +124,48 @@ Detections are mapped to **MITRE ATT&CK techniques** to align with industry-stan
 ---
 
 
+## 📘 Playbooks & Incident Response
+
+Each detection is supported by a SOC playbook defining:
+
+- Initial triage steps (Tier 1)
+- Investigation actions (Tier 2)
+- Escalation criteria
+- Containment and response options
+- Incident closure requirements
+
+This demonstrates **structured and repeatable incident response**.
+
+---
+
+## 📊 Dashboards & Visualization
+
+Custom dashboards are built to provide:
+- Authentication activity overview
+- Active Directory security posture
+- Firewall traffic analysis
+- Incident investigation context
+
+Dashboards support **both monitoring and investigation**.
+
+---
+
+## 📌 Key Skills Demonstrated
+
+- SIEM deployment and architecture
+- Windows and Active Directory security monitoring
+- Network firewall log analysis
+- Detection engineering with SPL
+- SOC alert triage and investigation
+- Attack simulation and validation
+- Incident response documentation
+- MITRE ATT&CK mapping
+
+---
+
+## 🔚 Conclusion
+
+This project represents a **practical enterprise SOC monitoring lab** using Splunk.  
+It demonstrates not only how logs are collected, but **how a SOC thinks, detects, investigates, and responds to threats** across multiple layers of an environment.
+
+---
