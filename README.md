@@ -54,6 +54,7 @@ Security events follow this pipeline:
    - Dashboards and investigations
 
 
+
 ---
 
 ## 🔍 Monitoring Scope
@@ -80,6 +81,34 @@ Security events follow this pipeline:
 
 ## ⚔️ Attack Simulation
 
+Attacks are performed from **Kali Linux** to validate detections and SOC workflows.
 
+Simulated scenarios include:
+- Brute-force authentication attacks
+- Credential abuse
+- Lateral movement attempts
+- Network scanning and enumeration
+
+Each attack is:
+- Observed in Splunk
+- Correlated across multiple data sources
+- Documented with detections and playbooks
+
+---
+
+## 🧠 SOC Use Cases Demonstrated
+
+This lab reflects how a SOC operates in practice:
+
+- Centralized log ingestion
+- Event correlation across endpoint, identity, and network layers
+- Alert triage and investigation
+- Use of dashboards for situational awareness
+- Application of incident response playbooks
+- Understanding detection gaps and false positives
+
+---
+
+## 📁 Repository Structure
 
 
