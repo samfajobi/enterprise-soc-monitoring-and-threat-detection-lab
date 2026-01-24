@@ -36,3 +36,22 @@ pfSense serves as the core network firewall, providing routing, traffic control,
 ![pfsense-setup](../screenshots/install-pfsense-vbox.png)
 
 ---
+
+## Step 3: Configure Network Adapters
+pfSense requires at least **two network interfaces** to function as a firewall.
+
+### Adapter 1 – WAN (Internet)
+- Enable Adapter
+- Attached to: **NAT**
+- Purpose: Provides internet access (WAN)
+
+### Adapter 2 – LAN (Internal Network)
+- Enable Adapter
+- Attached to: **Internal Network**
+- Name: `intnet` (or any consistent name)
+- Purpose: Internal LAN for SOC lab systems
+
+![pfsense-setup](../screenshots/install-pfsense-vbox.png)
+![pfsense-setup](../screenshots/install-pfsense-vbox.png)
+
+---
