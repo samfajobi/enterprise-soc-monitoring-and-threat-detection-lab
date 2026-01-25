@@ -55,3 +55,24 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 ![pfsense-setup](../screenshots/install-pfsense-vbox.png)
 
 ---
+
+## Step 4: Attach pfSense ISO
+1. Go to **Settings → Storage**.
+2. Under Controller IDE, attach the pfSense ISO file.
+3. Confirm ISO is mounted.
+
+📸 *Screenshot: pfSense ISO attached to VM*
+
+---
+
+## Step 5: Start pfSense Installation
+1. Start the pfSense VM.
+2. Select **Install pfSense** when prompted.
+3. Accept default options:
+   - Keyboard layout
+   - Partitioning (Auto / UFS)
+4. Allow the installer to complete.
+
+📸 *Screenshot: pfSense installation screen*
+
+---
