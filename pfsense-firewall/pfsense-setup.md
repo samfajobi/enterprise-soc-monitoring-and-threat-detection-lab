@@ -100,3 +100,23 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 ![pfsense-setup](../screenshots/pfsense-install-2.png)
 
 ---
+
+## Step 8: Verify pfSense is Running
+- pfSense console menu is accessible
+- WAN interface has an IP address
+- LAN interface is active
+- Firewall is ready to route traffic
+
+![pfsense-setup](../screenshots/pfsense-install-2.png)
+
+---
+
+## Next Steps
+- Access pfSense Web GUI from a LAN-connected VM
+- Configure DHCP for internal network
+- Connect other lab systems (AD, Splunk, Kali, Security Onion)
+- Begin SOC monitoring and attack simulations
+
+![pfsense-setup](../screenshots/pfsense-install-2.png)
+
+---
