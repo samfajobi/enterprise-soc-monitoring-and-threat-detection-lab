@@ -120,3 +120,17 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 ![pfsense-setup](../screenshots/pfsense-install-2.png)
 
 ---
+
+## Lab Purpose
+This pfSense installation forms the foundation of an enterprise-style SOC lab, enabling:
+- Network traffic inspection
+- Attack surface simulation
+- Firewall logging
+- Integration with SIEM and NIDS tools
+
+---
+
+## Author
+**Olusegun Fajobi**  
+Cybersecurity Engineer | SOC & SIEM  
+GitHub: https://github.com/samfajobi
