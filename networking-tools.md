@@ -36,6 +36,6 @@ The modem converts those signals into digital data your router and devices can u
 
 ### What a Modem Does NOT Do
 
-❌ Does not create Wi-Fi
-❌ Does not manage multiple devices
-❌ Does not secure your network
+   * ❌ Does not create Wi-Fi
+   * ❌ Does not manage multiple devices
+   * ❌ Does not secure your network
