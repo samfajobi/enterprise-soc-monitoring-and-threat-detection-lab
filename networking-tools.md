@@ -256,6 +256,46 @@ A proxy acts as an intermediary between clients and the internet.
 
 ---
 
+## 13. IDS / IPS
 
+### What It Is
+
+* IDS: Detects suspicious activity
+* IPS: Detects and blocks threats
+
+### Security Relevance
+
+* Core SOC detection tools
+* Integrated with SIEM platforms
+
+---
+
+## 14. How These Components Work Together
+
+```
+Internet → Modem → Router → Firewall → Switch → WAP → Devices
+```
+
+Each component plays a role in **connectivity, performance, and security**.
+
+---
+
+## 15. Why This Matters for SOC & Cloud Security
+
+Understanding networking tools enables:
+
+* Better log analysis
+* Faster incident response
+* Stronger cloud network design
+* Accurate threat modeling
+
+This knowledge forms the foundation for tools like **SIEM, XDR, Azure networking, and cloud security platforms**.
+
+---
+
+## Author
+
+**Sam**
+Cybersecurity | SOC | Cloud Security Projects
 
 
