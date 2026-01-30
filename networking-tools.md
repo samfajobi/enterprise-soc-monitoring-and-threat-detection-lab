@@ -134,7 +134,106 @@ A hub is a basic networking device that broadcasts data to **all connected devic
 * Susceptible to packet sniffing
 * Largely obsolete
 
+---
 
+## 6. Wireless Access Point (WAP)
+
+### What It Is
+
+A WAP allows wireless devices to connect to a **wired network**.
+
+### Key Functions
+
+* Bridges wired and wireless networks
+* Extends Wi‑Fi coverage
+* Supports multiple SSIDs
+
+### OSI Layer
+
+* Layer 2 (Data Link)
+
+### Security Relevance
+
+* Common attack target
+* Requires strong encryption (WPA2/WPA3)
+* Rogue AP detection is important in SOCs
+
+---
+
+## 7. Wi‑Fi (Wireless Networking Technology)
+
+### What It Is
+
+Wi‑Fi is a **wireless communication standard** (IEEE 802.11).
+
+### Key Characteristics
+
+* Uses radio frequencies (2.4 GHz, 5 GHz, 6 GHz)
+* Enables mobility and convenience
+
+### Security Relevance
+
+* Vulnerable to password attacks
+* Evil Twin & MITM attacks
+* Requires monitoring and strong authentication
+
+---
+
+## 8. Firewall
+
+### What It Is
+
+A firewall controls traffic based on **rules and policies**.
+
+### Types
+
+* Network firewall
+* Host‑based firewall
+* Next‑Generation Firewall (NGFW)
+
+### OSI Layer
+
+* Layers 3–7 (depending on type)
+
+### Security Relevance
+
+* Core SOC data source
+* Enforces access control
+* Detects suspicious behavior
+
+---
+
+## 9. DNS (Domain Name System)
+
+### What It Is
+
+DNS translates domain names into IP addresses.
+
+### Security Relevance
+
+* DNS logs reveal malware activity
+* Common vector for phishing & C2 traffic
+
+---
+
+## 10. DHCP (Dynamic Host Configuration Protocol)
+
+### What It Is
+
+DHCP automatically assigns IP addresses to devices.
+
+### Security Relevance
+
+* Rogue DHCP servers can hijack traffic
+* Logs help identify devices during incidents
+
+---
+
+## 11. VPN (Virtual Private Network)
+
+### What It Is
+
+A VPN encrypts traffic between a device and a network.
 
 
 
