@@ -1,41 +1,34 @@
 # Essential networking tools for Security Engineers
 
-## Router
-## Switch
-## Hub
-## Wi-Fi
-## Wi-Fi Router
+# Networking Fundamentals – Tools & Components
+
+This repository documents **core networking tools, devices, and technologies**, their roles, how they work together, and **why they matter in real-world IT, cloud, and SOC environments**. The goal is to demonstrate strong foundational knowledge that supports cybersecurity, cloud engineering, and threat detection projects.
+
+---
+
+## Table of Contents
+
+1. Overview
+2. Modem
+3. Router
+4. Switch
+5. Hub
+6. Wireless Access Point (WAP)
+7. Wi‑Fi (Wireless Networking)
+8. Firewall
+9. DNS (Domain Name System)
+10. DHCP (Dynamic Host Configuration Protocol)
+11. VPN (Virtual Private Network)
+12. Proxy Server
+13. IDS / IPS
+14. How These Components Work Together
+15. Why This Matters for SOC & Cloud Security
 
 ---
 
 
-## Modem(The Translator)
 
-### What a Modem Is
 
-Modem = MOdulator + DEModulator
 
-A modem’s job is to translate signals between:
 
-   * Your Internet Service Provider (ISP)
 
-   * Your local network
-
-Your ISP sends internet data using signals that your home devices cannot understand directly (fiber light signals, cable signals, DSL signals).
-The modem converts those signals into digital data your router and devices can use.
-
-### What a Modem Does
-
-   * Connects directly to your ISP
-
-   * Converts ISP signals → usable internet data
-
-   * Assigns a public IP address (from your ISP)
-
-   * Usually connects to a router via Ethernet cable
-
-### What a Modem Does NOT Do
-
-   * ❌ Does not create Wi-Fi
-   * ❌ Does not manage multiple devices
-   * ❌ Does not secure your network
