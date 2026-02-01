@@ -65,7 +65,80 @@ Example:
 
 ---
 
+### Double Quotes
 
+Double quotes are used to enclose string values.
+
+Example:
+
+```json
+"Alert": "Malware"
+```
+
+Numeric values are not enclosed in quotes:
+
+```json
+"AlertCode": 1090
+```
+
+---
+
+### Curly Brackets
+
+Curly brackets define an object, which stores data as a comma-separated list of key-value pairs. JSON log entries start and end with curly brackets.
+
+Example:
+
+```json
+"User": {
+  "id": "1234",
+  "name": "user",
+  "role": "engineer"
+}
+```
+
+---
+
+### Square Brackets
+
+Square brackets define arrays, which store ordered lists of values.
+
+Example:
+
+```json
+["Administrators", "Users", "Engineering"]
+```
+
+---
+
+### Security Use Cases for JSON
+
+* Cloud audit logs
+* API access logs
+* EDR and XDR telemetry
+* SaaS application logs
+
+---
+
+## Syslog
+
+Syslog is a standard for logging and transmitting data. It can refer to three different capabilities:
+
+* Protocol
+* Service
+* Log format
+
+Syslog is the native logging format used in Unix and Linux systems and is commonly used by network devices.
+
+---
+
+### Syslog Protocol
+
+* Used to transport logs to a centralized log server
+* Uses port 514 for plaintext logs
+* Uses port 6514 for encrypted logs (TLS)
+
+---
 
 
 
