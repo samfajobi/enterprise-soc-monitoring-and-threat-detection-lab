@@ -300,6 +300,66 @@ Example:
 
 ---
 
+### Security Use Cases for XML
+
+* Windows Event Logs
+* Active Directory auditing
+* Authentication and process creation monitoring
+
+---
+
+## CSV (Comma-Separated Values)
+
+CSV is a flat file format that separates data values using commas. In CSV logs, field names may not be included, so understanding the field order is critical.
+
+Example:
+
+```text
+2009-11-24T21:27:09.534255,ALERT,192.168.2.7,1041,x.x.250.50,80,TCP,ALLOWED,1:2001999:9,"ET MALWARE BTGrab.com Spyware Downloading Ads",1
+```
+
+---
+
+### Characteristics of CSV Logs
+
+* Lightweight and simple
+* No nested structure
+* Position-based fields
+* Common in legacy systems
+
+---
+
+### Security Use Cases for CSV
+
+* IDS and IPS alerts
+* Vulnerability scanner exports
+* Legacy security tools
+
+---
+
+## CEF (Common Event Format)
+
+Common Event Format (CEF) is a standardized log format that uses key-value pairs to normalize security events across different vendors. It is commonly used with SIEM platforms.
+
+---
+
+### CEF Structure
+
+```text
+CEF:Version|Device Vendor|Device Product|Device Version|Signature ID|Name|Severity|Extension
+```
+
+Fields are separated using the pipe (`|`) character.
+
+---
+
+### CEF Example
+
+```text
+Sep 29 08:26:10 host CEF:1|Security|threatmanager|1.0|100|worm successfully stopped|10|src=10.0.0.2 dst=2.1.2.2 spt=1232
+```
+
+---
 
 
 
