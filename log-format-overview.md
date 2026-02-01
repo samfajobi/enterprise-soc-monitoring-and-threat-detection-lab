@@ -232,6 +232,73 @@ Lower priority values indicate more urgent events.
 
 ---
 
+### Security Use Cases for Syslog
+
+* Firewall and router logs
+* Switch and network device logs
+* Linux system logs
+* Centralized SOC monitoring
+
+---
+
+## XML (eXtensible Markup Language)
+
+XML is a language and data format used to store and transmit structured data. It is the native file format for Windows systems and is commonly used for Windows Event Logs.
+
+XML uses:
+
+* Tags
+* Elements
+* Attributes
+
+---
+
+### Tags
+
+Tags identify and store data.
+
+* Start tag: `<tag>`
+* End tag: `</tag>`
+
+---
+
+### Elements
+
+Elements consist of tags and the data inside them. Every XML document must contain at least one root element.
+
+Example:
+
+```xml
+<Event>
+  <EventID>4688</EventID>
+  <Version>5</Version>
+</Event>
+```
+
+In this example:
+
+* `<Event>` is the root element
+* `<EventID>` and `<Version>` are child elements
+
+---
+
+### Attributes
+
+Attributes provide additional information about elements and are included inside the tag.
+
+Example:
+
+```xml
+<EventData>
+  <Data Name='SubjectUserSid'>S-2-3-11-160321</Data>
+  <Data Name='SubjectUserName'>JSMITH</Data>
+  <Data Name='SubjectDomainName'>ADCOMP</Data>
+  <Data Name='SubjectLogonId'>0x1cf1c12</Data>
+  <Data Name='NewProcessId'>0x1404</Data>
+</EventData>
+```
+
+---
 
 
 
