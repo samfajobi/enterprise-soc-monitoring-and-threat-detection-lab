@@ -1,4 +1,3 @@
-````md
 # Overview of Log File Formats
 
 Logs record events that happen on a system, application, or network. In cybersecurity, logs provide key details about activities across an organization, such as who signed into an application at a specific point in time, what actions were performed, and where those actions originated from.
