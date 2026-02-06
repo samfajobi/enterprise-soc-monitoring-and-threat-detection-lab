@@ -35,7 +35,29 @@ The lab environment consists of the following components:
   - User workstation
   - Endpoint activity monitoring
 
+- **pfSense Firewall**
+  - Network traffic inspection
+  - North-south and east-west traffic visibility
 
+- **Splunk (SIEM)**
+  - Centralized log ingestion
+  - Detection, alerting, and dashboards
+
+- **Kali Linux**
+  - Used to generate security-relevant events for detection validation
+  - No offensive focus; used strictly for defensive simulation
+
+All logs are forwarded and correlated within Splunk to replicate a real SOC monitoring workflow.
+
+---
+
+## Data Sources
+This project collects and analyzes logs from the following sources:
+
+- **Active Directory**
+  - Authentication events
+  - Account and group management changes
+  - Privilege escalation activity
 
 
 
