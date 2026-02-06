@@ -74,7 +74,44 @@ Firewall logs support detection of port scanning, lateral movement, and anomalou
 
 ---
 
+### Splunk SIEM
+Splunk serves as the centralized Security Information and Event Management (SIEM) platform.
 
+**Responsibilities:**
+- Log ingestion and normalization
+- Event correlation across multiple data sources
+- Detection and alerting
+- Dashboarding and visualization
+- Incident investigation support
+
+Splunk aggregates logs from all components, enabling SOC analysts to identify threats that would not be visible from a single data source.
+
+---
+
+### Kali Linux (Event Generation)
+Kali Linux is used strictly to generate controlled security-relevant activity within the lab environment.
+
+**Purpose:**
+- Generate authentication failures
+- Trigger network-based alerts
+- Validate detection logic
+
+No offensive exploitation is performed. Kali Linux is used only to simulate activity that produces realistic SOC telemetry.
+
+---
+
+## Log Flow Architecture
+All security-relevant logs follow a centralized flow:
+
+1. Events are generated on endpoints, domain controllers, and network devices
+2. Logs are forwarded to Splunk using appropriate log forwarding mechanisms
+3. Logs are indexed and normalized within Splunk
+4. Detection rules analyze events in near real time
+5. Alerts are generated for SOC investigation
+
+This log flow mirrors how enterprise SOCs achieve centralized visibility and detection.
+
+---
 
 
 
