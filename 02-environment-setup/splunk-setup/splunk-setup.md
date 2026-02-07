@@ -22,4 +22,21 @@ wget -O splunk-9.3.0-51ccf43db5bd-linux-2.6-amd64.deb
 ```
 ![Splunk-setup-1](screenshots/splunk-setup-1.png)    
 
+2. Once downloaded, type ls to view the splunk file, copy the file name and install Splunk:
+```
+sudo dpkg -i <file>
+```
 
+### Step 2: Enable Splunk as a Service
+1. Move to the Splunk installation directory:
+```
+cd /opt/splunk/bin
+```
+2. Accept the license agreement and enable Splunk at boot:
+```
+sudo ./splunk enable boot-start --accept-license
+```
+![Splunk-setup-1](screenshots/splunk-setup-2.png)
+3. Start Splunk:
+```
+sudo ./splunk start
