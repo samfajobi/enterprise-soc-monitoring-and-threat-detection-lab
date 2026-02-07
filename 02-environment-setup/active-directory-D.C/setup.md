@@ -21,6 +21,30 @@ Active Directory serves as the **central identity and authentication system**, e
 - Windows Server 2019 installed
 - Static IP address configured
 - Network connectivity to pfSense LAN
-- Administrator privileges
+- Local Administrator access
+- Virtual machine or physical server
+
+---
+
+## ⚙️ Step 1: Configure Static IP
+- Open **Network Adapter Settings**
+- Assign a **static IPv4 address**
+- Set **Preferred DNS** to the server’s own IP
+
+📷 *Screenshot: IPv4 configuration*
+
+Note: Although some lab environments function without a static IP,
+Microsoft best practice requires Domain Controllers to use a static IP
+to ensure DNS and authentication reliability.
+
+
+---
+
+## 🏷️ Step 2: Rename the Server
+- Open **Server Manager → Local Server**
+- Rename the server (e.g., `DC01`)
+- Restart the system
+
+📷 *Screenshot: Server rename confirmation*
 
 ---
