@@ -72,10 +72,15 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ![pfsense-setup](../../images/pfsense-install-1.png)
 
+#### Click Accept
+
 ![pfsense-setup](../../images/pfsense-install-2.png)
+
+#### Click **OK**
 
 ![pfsense-setup](../../images/pfsense-install-3.png)
 
+#### Click **Install CE**
 ![pfsense-setup](../../images/pfsense-install-3a.png)
 
 ![pfsense-setup](../../images/pfsense-install-3b.png)
@@ -85,6 +90,8 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 ![pfsense-setup](../../images/pfsense-install-3d.png)
 
 ![pfsense-setup](../../images/pfsense-install-3e.png)
+
+### Wait for a while, installation might take a while depending on your network speed.
 
 ![pfsense-setup](../../images/pfsense-install-3f.png)
 
@@ -103,7 +110,7 @@ pfSense requires at least **two network interfaces** to function as a firewall.
 
 ![pfsense-setup](../../images/pfsense-install-4.png)
 
-Now press delete
+Now Click **Remove**
 
 ![pfsense-setup](../../images/pfsense-install-4a.png)
 
