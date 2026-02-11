@@ -149,4 +149,26 @@ Segmentation enforces least privilege and reduces blast radius during breaches.
 
 ---
 
+## 📊 Firewall Logging and SOC Monitoring
+
+Firewalls generate valuable logs including:
+
+* Allowed and denied traffic
+* Source and destination IPs
+* Ports and protocols
+* NAT translations
+* Intrusion alerts (if IDS/IPS enabled)
+
+SOC teams use firewall logs to:
+
+* Detect port scans
+* Identify brute force attempts
+* Investigate lateral movement
+* Monitor unusual outbound traffic
+* Correlate alerts with endpoint logs
+
+Firewalls are a primary log source in enterprise SIEM platforms.
+
+---
+
 
