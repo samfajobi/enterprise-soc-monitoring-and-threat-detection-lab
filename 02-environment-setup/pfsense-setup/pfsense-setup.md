@@ -150,11 +150,24 @@ Now Click **Remove**
 ![pfsense-setup](../../images/pfsense-install-6.png)
 
 #### Why this step matters
-- A firewall sits between networks.
+- A firewall sits between networks(WAN and LAN).
 - For pfSense to protect your VM (say Ubuntu):
   - Ubuntu must send its traffic through pfSense
   - That only happens if Ubuntu’s default gateway = pfSense LAN IP.
   - And that only works if Ubuntu is on the same Layer-2 network as pfSense LAN.
+
+- If Ubuntu was not connected to the LAN interface:
+  - It would bypass the firewall.
+  - pfSense would never see its traffic.
+  - No filtering would happen.  
+
+So when you placed Ubuntu in the same LAN:
+
+> **You made pfSense the gatekeeper of Ubuntu’s traffic..**
+
+That’s the core idea of a firewall.
+
+
 
 ---
 

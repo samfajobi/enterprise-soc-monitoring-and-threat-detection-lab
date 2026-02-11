@@ -178,6 +178,5 @@ All attack simulations are performed in a controlled lab environment and are int
 ---
 
 ## Future Enhancements
-- Additional endpoint telemetry
 - Expanded threat intelligence integrations
 - Detection tuning and optimization
