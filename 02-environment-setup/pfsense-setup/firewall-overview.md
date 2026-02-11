@@ -41,6 +41,36 @@ Firewalls operate between security zones. A zone represents a group of systems w
 
 This zone is considered hostile and untrusted.
 
+## LAN (Trusted User Network)
+* Employee workstations
+* Corporate laptops
+* Internal endpoints
+
+This zone contains regular users and internal devices.
+
+## Server Network
+* Domain Controllers
+* File servers
+* Database servers
+* Application servers
+
+This zone contains critical infrastructure.
+
+## DMZ (Demilitarized Zone)
+* Public web servers
+* Email gateways
+* Reverse proxies
+
+Systems exposed to the internet are placed here to isolate them from internal networks.
+
+## Guest Network
+* Visitor WiFi
+* Unmanaged devices
+
+This network is isolated from internal systems.
+
+---
+
 
 
 
