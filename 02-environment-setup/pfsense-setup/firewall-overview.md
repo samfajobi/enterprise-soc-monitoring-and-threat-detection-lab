@@ -71,6 +71,43 @@ This network is isolated from internal systems.
 
 ---
 
+## 🛡 Types of Firewalls
+
+## Packet Filtering Firewall
+* Filters traffic based on IP address, port, and protocol
+* Stateless
+* Basic level of control
+
+## Stateful Firewall
+* Tracks active connections
+* Makes decisions based on connection state
+* Most common traditional firewall type
+
+## Next-Generation Firewall (NGFW)
+* Deep packet inspection
+* Application awareness
+* Intrusion prevention (IDS/IPS)
+* Threat intelligence integration
+
+## Host-Based Firewall
+* Installed directly on endpoints
+* Controls inbound/outbound traffic per device
+
+---
+
+## 🔎 How Firewalls Work
+
+1. Traffic enters an interface
+2. Firewall checks rules top-down
+3. If rule matches:
+   * Allow or deny
+4. If no rule matches:
+   * Default deny (best practice)
+5. Allowed traffic is logged and optionally inspected
+
+Firewalls evaluate traffic on ingress (when it enters an interface).
+
+---
 
 
 
