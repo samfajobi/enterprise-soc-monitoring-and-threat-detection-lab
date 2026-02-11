@@ -116,7 +116,7 @@ Now Click **Remove**
 
 ![pfsense-setup](../../images/pfsense-install-4a.png)
 
-### Note: **after deleting the ISO file, pfSense then boots from this below**
+### Note: **after deleting the ISO file, pfSense then boots from the "pfSense Firewall.vdi below**
 
 ![pfsense-setup](../../images/pfsense-install-4b.png)
 
@@ -134,7 +134,7 @@ Now Click **Remove**
 
 ![pfsense-setup](../../images/pfsense-install-5.png)
    
-### Note: **In some article, the steps might require you to setup the WAN and LAN ater starting the VM, but in this case, you've been prompted from the very start and you've selected the LAN and WAN if you could remember. **
+#### Note: **In some article, the steps might require you to setup the WAN and LAN ater starting the VM, but in this case, you've been prompted from the very start and you've selected the LAN and WAN if you could remember. **
 
 ---
 
@@ -177,7 +177,7 @@ That’s the core idea of a firewall.
 - LAN interface is active
 - Firewall is ready to route traffic
 
-![pfsense-setup](../../images/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-6b.png)
 
 ---
 
@@ -200,7 +200,8 @@ This pfSense installation forms the foundation of an enterprise-style SOC lab, e
 
 ---
 
-## Author
-**Olusegun Fajobi**  
-Cybersecurity Engineer | SOC & SIEM  
-GitHub: https://github.com/samfajobi
+## 👤 Author
+
+**Olusegun Fajobi**
+Cybersecurity Engineer (Blue & Red Team)
+GitHub: [https://github.com/samfajobi](https://github.com/samfajobi)
