@@ -130,15 +130,32 @@ Now Click **Remove**
    - **WAN** → NAT adapter
    - **LAN** → Internal Network adapter
 4. Default LAN IP is typically: 192.168.1.1/24
-   - **Ensure to write the IP address of the WAN and LAN somewheree, you'd need them as we proceed**
+   - **Ensure to write the IP address of the WAN and LAN somewheree, you'd need them as you proceed**
 
 ![pfsense-setup](../../images/pfsense-install-5.png)
    
-### Note: **In some article, the steps might require you to setup the WAN and LAN ater starting the VM **
+### Note: **In some article, the steps might require you to setup the WAN and LAN ater starting the VM, but in this case, you've been prompted from the very start and you've selected the LAN and WAN if you could remember. **
 
 ---
 
-## Step 7: Verify pfSense is Running
+## Step 7: Next, place the VMs you want to protect in the created LAN
+- Click the VM and go to settings
+- Go to network
+- Change Adapter 1
+- Attached to: **Internal Network**
+- Now your VM is on same LAN interface with the pfSense firewall
+- Firewall is ready to route traffic from the VM to the internet
+
+![pfsense-setup](../../images/pfsense-install-6.png)
+
+#### Why this step matters
+- Reduces deployment risk
+- Improves pipeline reliability
+- Aligns with CI/CD best practices
+
+---
+
+## Step 8: Verify pfSense is Running
 - pfSense console menu is accessible
 - WAN interface has an IP address
 - LAN interface is active
