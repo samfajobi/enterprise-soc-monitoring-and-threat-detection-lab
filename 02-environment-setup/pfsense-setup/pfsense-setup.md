@@ -193,9 +193,11 @@ That’s the core idea of a firewall.
 
 ![pfsense-setup](../../images/pfsense-install-7b.png)
 
+Voilaaaaaaaa, you are done setting up pfSense. Congratulations!!!!!!!!
 
 ---
 
+### Further steps for me
 There are more Steps for this project, the steps above are just for one LAN for the pfSense, i.e a flat network, but in this project, I would segmenting my network by creating different VLANs for the endpoints (Windows, Ubuntu), Active Directory, Splunk and Kali linux
 
 ## Step 9: Network Segmentation
