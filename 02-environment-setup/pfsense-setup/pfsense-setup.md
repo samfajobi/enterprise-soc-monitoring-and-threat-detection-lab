@@ -187,7 +187,12 @@ That’s the core idea of a firewall.
 - Connect other lab systems (AD, Splunk, Kali, Security Onion)
 - Begin SOC monitoring and attack simulations
 
-![pfsense-setup](../../images/pfsense-install-2.png)
+![pfsense-setup](../../images/pfsense-install-7.png)
+
+![pfsense-setup](../../images/pfsense-install-7a.png)
+
+![pfsense-setup](../../images/pfsense-install-7b.png)
+
 
 ---
 
