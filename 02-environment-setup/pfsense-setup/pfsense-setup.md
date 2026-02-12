@@ -220,6 +220,11 @@ Each adapter becomes a separate interface in pfSense.
 
 ---
 
+## Step 10: Placing VMs in their respective VLANs
+- After the Vlans have been created, we then proceed to place VMs(ubuntu, windows etc) in their respective VMs as needed.
+
+---
+
 ## Lab Purpose
 This pfSense installation forms the foundation of an enterprise-style SOC lab, enabling:
 - Network traffic inspection
