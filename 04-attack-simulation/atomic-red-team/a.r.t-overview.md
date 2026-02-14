@@ -15,3 +15,24 @@ Think of it as:
 🧪 “Unit testing” for your security controls.
 
 
+# Why It Exists
+
+Many organizations deploy:
+
+ - SIEM
+
+ - EDR
+
+ - Firewall
+
+ - IDS
+
+ - Logging agents
+
+But they don’t verify:
+
+❓ Are detections actually working?
+❓ Will alerts trigger for real attack behavior?
+❓ Are logs being collected properly?
+
+Atomic Red Team answers those questions.
