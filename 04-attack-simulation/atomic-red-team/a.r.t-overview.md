@@ -15,7 +15,7 @@ Think of it as:
 🧪 “Unit testing” for your security controls.
 
 
-# Why It Exists
+## Why It Exists
 
 Many organizations deploy:
 
@@ -31,8 +31,32 @@ Many organizations deploy:
 
 But they don’t verify:
 
-❓ Are detections actually working?
-❓ Will alerts trigger for real attack behavior?
-❓ Are logs being collected properly?
+ - ❓ Are detections actually working?
+ - ❓ Will alerts trigger for real attack behavior?
+ - ❓ Are logs being collected properly?
 
 Atomic Red Team answers those questions.
+
+
+
+## How It Connects to MITRE ATT&CK
+
+It is mapped to:
+
+ - MITRE Corporation’s
+ - MITRE ATT&CK
+
+For example:
+
+Technique:
+T1059 – Command and Scripting Interpreter
+
+Atomic Red Team provides:
+
+ - Small test scripts
+
+ - Safe commands
+
+ - Cleanup steps
+
+So you can simulate that behavior and check if your SIEM detects it.
