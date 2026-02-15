@@ -55,7 +55,7 @@ Pick an address:
    **E.g:**
     - IP Address: 192.168.1.10
     - Subnet Mask: 255.255.255.0 
-    
+
 **Default Gateway**
  - This is always pfSense’s LAN IP.
  - Default Gateway: 192.168.1.1
@@ -137,6 +137,7 @@ This step creates the **domain**, installs **DNS**, and enables authentication s
    - **Promote this server to a domain controller**
 3. Choose:
    - **Add a new forest**
-4. Enter a domain name, for example: corp.local
+4. Enter a domain name, for example: 
+   - corp.local
 
 ---
