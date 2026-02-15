@@ -91,3 +91,17 @@ Authentication, authorization, Kerberos, and LDAP activity generated here will l
 
 ---
 
+## 🧱 Step 4: Promote Server to Domain Controller
+
+### Purpose
+This step creates the **domain**, installs **DNS**, and enables authentication services that generate high-value SOC telemetry.
+
+### Steps
+1. In **Server Manager**, click the ⚠️ **notification flag**
+2. Select:
+   - **Promote this server to a domain controller**
+3. Choose:
+   - **Add a new forest**
+4. Enter a domain name, for example: corp.local
+
+---
