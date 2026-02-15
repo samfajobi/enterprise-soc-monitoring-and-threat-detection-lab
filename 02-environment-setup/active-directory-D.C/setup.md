@@ -57,3 +57,37 @@ If your **DC’s IP changes**:
 📷 *Screenshot: Server rename confirmation*
 
 ---
+
+# Active Directory Domain Controller Setup (Enterprise SOC Lab)
+
+## Continuation: Domain Controller Deployment
+
+---
+
+## 🧩 Step 3: Install Active Directory Domain Services (AD DS)
+
+### Purpose (SOC Context)
+Installing AD DS converts this server into the **central identity authority** for the lab.  
+Authentication, authorization, Kerberos, and LDAP activity generated here will later be ingested into the SIEM for detection engineering and threat analysis.
+
+### Steps
+1. Open **Server Manager**
+2. Click **Manage → Add Roles and Features**
+3. Select:
+   - **Role-based or feature-based installation**
+4. Choose:
+   - **Select a server from the server pool**
+   - Highlight `DC01`
+5. Under **Server Roles**, select:
+   - ✅ **Active Directory Domain Services**
+6. When prompted, click:
+   - **Add Features**
+7. Click **Next** through:
+   - Features
+   - AD DS information
+8. Click **Install**
+
+> ⚠️ Do **not** promote the server yet.
+
+---
+
