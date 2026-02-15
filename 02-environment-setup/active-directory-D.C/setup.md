@@ -31,18 +31,21 @@ Active Directory serves as the **central identity and authentication system**, e
 ## ⚙️ Step 1: Configure Static IP
 - Clikc on **Settings**
 - Open **Network & Internet**
+
 ![AD-setup-1](../../images/AD-setup.png) 
 
 - Open **Change Adapter Options**
+
 ![AD-setup-1](../../images/AD-setup-01.png) 
 
 - RIght click on Ethernet and click on **Properties**
+
 ![AD-setup-1](../../images/AD-setup-02.png)
 
 - Assign a **Double-Click on Internet protocol Version 4**
 ![AD-setup-1](../../images/AD-setup-03.png)
 
-- Click **Use the following IP address** Assign a **static IPv4 address**
+- Click **Use the following IP address** and Assign a **static IPv4 address**
 - Set **Preferred DNS** to the server’s own IP
 ![AD-setup-1](../../images/AD-setup-04.png)
 
