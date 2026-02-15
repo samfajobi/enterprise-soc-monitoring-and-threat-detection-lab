@@ -139,5 +139,45 @@ This step creates the **domain**, installs **DNS**, and enables authentication s
    - **Add a new forest**
 4. Enter a domain name, for example: 
    - corp.local
+5. Click **Next**
 
 ---
+
+## 🔐 Step 5: Domain Controller Options
+
+### Configuration
+- **Forest functional level:** Windows Server 2016 or 2019
+- **Domain functional level:** Windows Server 2016 or 2019
+- ✅ **Domain Name System (DNS)**
+- Global Catalog: Enabled by default
+- Set a **Directory Services Restore Mode (DSRM) password**
+
+> 🔒 SOC Note:  
+> DSRM credentials are sensitive and abused in recovery and persistence scenarios. Store securely.
+
+---
+
+## 🌐 Step 6: DNS Configuration
+
+- Ignore the **DNS delegation warning**
+- This is expected in isolated or lab environments
+- Click **Next**
+
+The Domain Controller will now act as:
+- DNS server
+- Authentication authority
+- Directory services host
+
+---
+
+## 🧾 Step 7: NetBIOS Name
+
+- Accept the default NetBIOS name (e.g., `CORP`)
+- Click **Next**
+
+---
+
+
+
+
+
