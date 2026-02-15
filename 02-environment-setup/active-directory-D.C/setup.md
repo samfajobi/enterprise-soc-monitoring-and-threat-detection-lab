@@ -42,10 +42,28 @@ Active Directory serves as the **central identity and authentication system**, e
 
 ![AD-setup-1](../../images/AD-setup-02.png)
 
-- Assign a **Double-Click on Internet protocol Version 4**
+- Now **Double-Click on Internet protocol Version 4**
+
 ![AD-setup-1](../../images/AD-setup-03.png)
 
 - Click **Use the following IP address** and Assign a **static IPv4 address**
+**How to pick an IP Address**: 
+Pick an address:
+ - Inside the LAN subnet
+ - Outside the DHCP range
+ - Easy to remember
+   **E.g:**
+    - IP Address: 192.168.1.10
+    - Subnet Mask: 255.255.255.0 
+    
+**Default Gateway**
+ - This is always pfSense’s LAN IP.
+ - Default Gateway: 192.168.1.1
+
+**Preferred DNS**
+ - Set this to the DC’s own IP address.
+ - Preferred DNS: 192.168.1.10
+
 - Set **Preferred DNS** to the server’s own IP
 ![AD-setup-1](../../images/AD-setup-04.png)
 
