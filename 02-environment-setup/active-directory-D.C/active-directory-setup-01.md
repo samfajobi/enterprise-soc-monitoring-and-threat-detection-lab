@@ -46,7 +46,8 @@ Active Directory serves as the **central identity and authentication system**, e
 
 ![AD-setup-1](../../images/AD-setup-03.png)
 
-- Click **Use the following IP address** and Assign a **static IPv4 address**
+- Click **Use the following IP address** and Assign a **static IPv4 address** in the box
+
 **How to pick an IP Address**: 
 Pick an address:
  - Inside the LAN subnet
@@ -90,12 +91,6 @@ If your **DC’s IP changes**:
 - Restart the system
 
 📷 *Screenshot: Server rename confirmation*
-
----
-
-# Active Directory Domain Controller Setup (Enterprise SOC Lab)
-
-## Continuation: Domain Controller Deployment
 
 ---
 
