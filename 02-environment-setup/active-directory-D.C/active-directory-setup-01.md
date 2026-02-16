@@ -92,7 +92,11 @@ If your **DC’s IP changes**:
 - Rename the server (e.g., `DC01`)
 - Restart the system
 
-📷 *Screenshot: Server rename confirmation*
+
+![AD-setup-1](../../images/AD-setup-4a.png)
+
+![AD-setup-1](../../images/AD-setup-4b.png)
+
 
 ---
 
