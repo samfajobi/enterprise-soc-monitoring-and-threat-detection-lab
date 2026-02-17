@@ -231,14 +231,6 @@ Each adapter becomes a separate interface in pfSense.
 
 ![pfsense-setup](../../images/pfsense-install-8c.png)
 
-## Step 11: Assign Interface to the created adapters(VLANs) from the pfSense console
-- After the Vlans have been created, we then proceed to assign an interface to the created adapter on the pfSense console.
-
-![pfsense-setup](../../images/pfsense-install-9.png)
-
-- Next, we assign an IP address range to the interface that has been assigned or created
-![pfsense-setup](../../images/pfsense-install-9.png)
-
 ---
 
 ## Lab Purpose

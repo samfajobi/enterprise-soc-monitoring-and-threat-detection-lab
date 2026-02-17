@@ -204,9 +204,9 @@ DHCP Range: 192.168.30.100 - 192.168.30.200
 
 # Final Checklist
 
-- [ ] LAN interface set to Static
-- [ ] Correct subnet mask
-- [ ] DHCP enabled
+- [x] LAN interface set to Static
+- [x] Correct subnet mask
+- [x] DHCP enabled
 - [ ] VM adapter names match
 - [ ] Client successfully receives IP
 - [ ] Can access pfSense GUI
