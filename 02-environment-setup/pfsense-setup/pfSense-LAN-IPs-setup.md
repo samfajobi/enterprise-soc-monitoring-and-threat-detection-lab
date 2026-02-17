@@ -107,7 +107,73 @@ Inside VirtualBox:
 VM → Settings → Network
 
 Ensure:
+- Adapter Type: Internal Network
+- Name: EXACT same name used for pfSense LAN adapter
 
+⚠️ Name must match exactly.
+
+---
+
+# Step 6: Renew IP on Client VM (Windows)
+
+Inside Windows VM:
+
+```
+ipconfig /release
+ipconfig /renew
+ipconfig
+```
+
+Expected Output:
+
+- IPv4 Address: 192.168.10.x
+- Default Gateway: 192.168.10.1
+- DNS Server: 192.168.10.1
+
+---
+
+# Expected Result
+
+Clients should:
+- Receive valid IP address (NOT 169.254.x.x)
+- Be able to ping 192.168.10.1
+- Access pfSense GUI via http://192.168.10.1
+- Have internet access (if WAN is configured correctly)
+
+---
+
+# Key Design Rule
+
+| Interface | IP Type |
+|------------|----------|
+| WAN | DHCP (from ISP/NAT) |
+| LAN | Static |
+| Clients | DHCP from pfSense |
+
+---
+
+# Troubleshooting Notes
+
+If clients receive:
+
+```
+169.254.x.x
+```
+
+This means:
+- DHCP is not enabled
+- Interface is not assigned correctly
+- Network adapter names do not match
+- Interface was reassigned after adding adapters
+
+Re-run:
+```
+1) Assign Interfaces
+```
+
+And verify mapping.
+
+---
 
 
 
