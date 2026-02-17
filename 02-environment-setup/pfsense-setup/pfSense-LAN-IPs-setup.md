@@ -15,6 +15,8 @@ From the pfSense VM console menu:
 
 Select the LAN interface when prompted.
 
+![pfsense-setup](../../images/pfsense-install-9.png)
+
 ---
 
 # Step 2: Configure LAN IPv4 Address
@@ -209,6 +211,9 @@ DHCP Range: 192.168.30.100 - 192.168.30.200
 - [ ] Client successfully receives IP
 - [ ] Can access pfSense GUI
 
+
+- Follow same steps for all Interfaces, then you should have something like this:
+![pfsense-setup](../../images/pfsense-install-9d.png)
 ---
 
 ✅ LAN configuration complete.
