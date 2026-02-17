@@ -75,6 +75,39 @@ LAN does NOT require an upstream gateway.
 
 You will then see:
 
+```
+Enable DHCP server on LAN?
+```
+
+### Answer:
+```
+y
+```
+
+Configure DHCP range:
+
+Start:
+```
+192.168.10.100
+```
+
+End:
+```
+192.168.10.200
+```
+
+This allows client VMs to automatically receive IP addresses.
+
+---
+
+# Step 5: Verify VM Network Adapter
+
+Inside VirtualBox:
+
+VM → Settings → Network
+
+Ensure:
+
 
 
 
