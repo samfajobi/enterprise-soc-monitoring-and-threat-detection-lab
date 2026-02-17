@@ -21,7 +21,40 @@ Select the LAN interface when prompted.
 
 You will see:
 
-``
+```
+Configure IPv4 address LAN interface via DHCP?
+```
+
+### Answer:
+```
+n
+```
+
+Reason:  
+LAN must use a **static IP address** because it acts as:
+- Default gateway for clients
+- DHCP server base address
+- Internal network anchor
+
+---
+
+# Step 3: Enter Static IP Address
+
+When prompted:
+
+```
+Enter the new LAN IPv4 address:
+```
+
+Example:
+```
+192.168.10.1
+```
+
+Then:
+
+```
+Enter subnet bit count:
 
 
 
