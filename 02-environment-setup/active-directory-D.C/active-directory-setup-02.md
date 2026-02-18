@@ -52,5 +52,22 @@ Confirm:
 
 Run: nslookup corp.local
 
+Expected result:
+- DNS server = Domain Controller IP
+- Domain name resolves successfully
 
+If this fails:
+- Stop
+- Fix DNS before proceeding
+
+---
+
+## Step 3: Rename the Windows 10 Computer (Recommended)
+
+To follow enterprise naming standards:
+
+1. Open **Settings**
+2. Navigate to **System → About**
+3. Click **Rename this PC**
+4. Enter a hostname such as:
 
