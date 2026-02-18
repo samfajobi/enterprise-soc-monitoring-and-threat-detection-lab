@@ -152,6 +152,9 @@ This step creates the **domain**, installs **DNS**, and enables authentication s
    - corp.local
 5. Click **Next**
 
+![AD-setup-1](../../images/AD-setup-4g.png)
+
+
 ---
 
 ## 🔐 Step 5: Domain Controller Options
@@ -163,7 +166,7 @@ This step creates the **domain**, installs **DNS**, and enables authentication s
 - Global Catalog: Enabled by default
 - Set a **Directory Services Restore Mode (DSRM) password**
 
-![AD-setup-1](../../images/AD-setup-4f.png)
+![AD-setup-1](../../images/AD-setup-4h.png)
 
 > 🔒 SOC Note:  
 > DSRM credentials are sensitive and abused in recovery and persistence scenarios. Store securely.
@@ -198,7 +201,7 @@ Leave defaults unless simulating advanced enterprise storage layouts.
 - Logs
 - SYSVOL
 
-![AD-setup-1](../../images/AD-setup-4f.png)
+![AD-setup-1](../../images/AD-setup-4i.png)
 
 Defaults are appropriate for SOC labs.
 
@@ -211,9 +214,6 @@ Click **Next**.
 1. Review configuration summary
 2. Verify **Prerequisites Check** passes
 3. Click **Install**
-
-![AD-setup-1](../../images/AD-setup-4f.png)
-
 4. Server will automatically reboot
 
 ---

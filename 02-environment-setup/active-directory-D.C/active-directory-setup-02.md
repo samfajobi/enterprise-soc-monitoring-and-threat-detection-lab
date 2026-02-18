@@ -1,4 +1,4 @@
-# Active Directory Domain Controller Setup 2 (Enterprise SOC Lab)
+# Active Directory Domain Controller Setup 2 (Setting up domain join endpoint)
 
 ## 🔄 Step 1: Post-Promotion Validation
 
