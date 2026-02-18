@@ -6,12 +6,6 @@
 
 
 
-
-
-
-
-
-
 ## MITRE ATT&CK Mapping
 | Tactic | Technique | ID |
 |------|----------|----|
