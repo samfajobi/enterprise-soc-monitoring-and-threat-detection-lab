@@ -69,5 +69,21 @@ To follow enterprise naming standards:
 1. Open **Settings**
 2. Navigate to **System → About**
 3. Click **Rename this PC**
-4. Enter a hostname such as:
+4. Enter a hostname such as: Windows-Workstation
+5. Restart the system
+
+---
+
+## Step 4: Join the Domain
+
+1. Open **Settings**
+2. Navigate to: Accounts → Access work or school
+3. Click **Connect**
+4. Select:
+   - Join this device to a local Active Directory domain
+5. Enter the domain name:
+   - corp.local
+
+
+
 
