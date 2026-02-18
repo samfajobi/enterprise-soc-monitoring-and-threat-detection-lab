@@ -218,4 +218,17 @@ Click **Next**.
 
 ---
 
+## ✅ Step 10: Verify Installation
+
+1. After server has rebooted
+2. Your domain name should be followed by a backslash
+3. This indicate that you've successfully **Install AD-DS**
+4. Server has been promoted to domain controller
+
+![AD-setup-1](../../images/AD-setup-4j.png)
+
+Next: We create users and add domain join, check out AD-setup 2 for continuation
+
+---
+
 
