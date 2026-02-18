@@ -207,12 +207,13 @@ DHCP Range: 192.168.30.100 - 192.168.30.200
 - [x] LAN interface set to Static
 - [x] Correct subnet mask
 - [x] DHCP enabled
-- [ ] VM adapter names match
-- [ ] Client successfully receives IP
-- [ ] Can access pfSense GUI
+- [x] VM adapter names match
+- [x] Client successfully receives IP
+- [x] Can access pfSense GUI
 
 
-- Follow same steps for all Interfaces, then you should have something like this:
+Follow same steps for all Interfaces, then you should have something like this:
+
 ![pfsense-setup](../../images/pfsense-install-9d.png)
 ---
 

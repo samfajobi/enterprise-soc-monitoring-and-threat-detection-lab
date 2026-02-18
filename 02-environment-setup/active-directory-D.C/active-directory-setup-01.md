@@ -109,6 +109,9 @@ Authentication, authorization, Kerberos, and LDAP activity generated here will l
 ### Steps
 1. Open **Server Manager**
 2. Click **Manage → Add Roles and Features**
+
+![AD-setup-1](../../images/AD-setup-4c.png)
+
 3. Select:
    - **Role-based or feature-based installation**
 4. Choose:
@@ -123,6 +126,10 @@ Authentication, authorization, Kerberos, and LDAP activity generated here will l
    - AD DS information
 8. Click **Install**
 
+![AD-setup-1](../../images/AD-setup-4d.png)
+
+![AD-setup-1](../../images/AD-setup-4e.png)
+
 > ⚠️ Do **not** promote the server yet.
 
 ---
@@ -135,7 +142,10 @@ This step creates the **domain**, installs **DNS**, and enables authentication s
 ### Steps
 1. In **Server Manager**, click the ⚠️ **notification flag**
 2. Select:
-   - **Promote this server to a domain controller**
+- **Promote this server to a domain controller**
+
+![AD-setup-1](../../images/AD-setup-4f.png)
+
 3. Choose:
    - **Add a new forest**
 4. Enter a domain name, for example: 
