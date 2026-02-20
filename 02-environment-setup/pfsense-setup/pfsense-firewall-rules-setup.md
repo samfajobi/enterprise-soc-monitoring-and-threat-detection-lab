@@ -110,7 +110,45 @@ This ensures:
 
 ---
 
+# 6. Verify Connectivity
 
+From client VM:
+
+```
+ping <gateway>
+ping 8.8.8.8
+ping google.com
+```
+
+From pfSense:
+
+```
+Diagnostics → Ping → 8.8.8.8
+```
+
+All should succeed.
+
+---
+
+# 7. Enable DNS Resolver
+
+Go to:
+
+```
+Services → DNS Resolver
+```
+
+Ensure:
+
+- Enabled
+- Listen on all interfaces
+- Outgoing interface: WAN
+
+Clients can now use:
+
+```
+DNS: 192.168.x.1
+```
 
 ---
 
