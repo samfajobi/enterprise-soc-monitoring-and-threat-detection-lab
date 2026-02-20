@@ -112,6 +112,7 @@ After reboot:
 
 1. At the login screen, select **Other user**
 2. Log in with:
+   - CORP\username
 
 
 
