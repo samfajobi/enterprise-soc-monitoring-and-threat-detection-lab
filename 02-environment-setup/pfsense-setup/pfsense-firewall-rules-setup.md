@@ -202,5 +202,37 @@ Enable:
 
 ---
 
+# Final Architecture Flow
+
+Traffic Path:
+
+```
+Client (VLAN)
+    ↓
+Interface Rule (Ingress)
+    ↓
+Routing Engine
+    ↓
+Outbound NAT
+    ↓
+WAN
+    ↓
+Internet
+```
+
+---
+
+# Conclusion
+
+This pfSense deployment provides:
+
+- Segmented VLAN architecture
+- Inter-VLAN routing
+- Controlled egress
+- NAT translation
+- DNS resolution
+- Foundation for SIEM log ingestion
+
+This firewall now serves as the core infrastructure component for SOC simulation, attack testing, and log correlation exercises.
 
 ---
